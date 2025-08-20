@@ -57,7 +57,7 @@ export default function Navbar() {
                 className="block rounded-lg px-4 py-3 hover:bg-white/10"
                 role="menuitem"
               >
-                atulyasrivastava104@gmail.com
+                atulyasrivastava0104@gmail.com
               </a>
 
               {/* LinkedIn — replace URL with your real profile */}
