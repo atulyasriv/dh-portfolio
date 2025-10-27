@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
@@ -17,17 +18,24 @@ export default function Navbar() {
           <a href="#work" className="opacity-80 hover:opacity-100">
             Work
           </a>
+
+          {/* ✅ NEW — Projects opens your GitHub */}
+          <a
+            href="https://github.com/atulyasriv"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="opacity-80 hover:opacity-100"
+          >
+            Projects
+          </a>
+
           <a href="#about" className="opacity-80 hover:opacity-100">
             About
           </a>
 
-          {/* Contact dropdown (Gmail + LinkedIn only) */}
+          {/* Contact dropdown stays same */}
           <div className="relative group">
-            <button
-              className="opacity-80 hover:opacity-100 inline-flex items-center gap-1"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+            <button className="opacity-80 hover:opacity-100 inline-flex items-center gap-1">
               Contact
               <svg
                 width="14"
@@ -44,29 +52,18 @@ export default function Navbar() {
               </svg>
             </button>
 
-            <div
-              className="absolute right-0 mt-2 w-64 rounded-xl border border-white/10 bg-black/80 backdrop-blur-xl p-2
-                         opacity-0 translate-y-1 pointer-events-none
-                         transition duration-150 ease-out
-                         group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto"
-              role="menu"
-            >
-              {/* Gmail */}
+            <div className="absolute right-0 mt-2 w-64 rounded-xl border border-white/10 bg-black/80 backdrop-blur-xl p-2 opacity-0 translate-y-1 pointer-events-none transition duration-150 ease-out group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto">
               <a
-                href="mailto:atulyasrivastava104@gmail.com?subject=Hello%20Atulya"
+                href="mailto:atulyasrivastava0104@gmail.com"
                 className="block rounded-lg px-4 py-3 hover:bg-white/10"
-                role="menuitem"
               >
                 atulyasrivastava0104@gmail.com
               </a>
-
-              {/* LinkedIn — replace URL with your real profile */}
               <a
                 href="https://www.linkedin.com/in/atulya-srivastava-76969730b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-1 block rounded-lg px-4 py-3 hover:bg-white/10"
-                role="menuitem"
               >
                 LinkedIn Profile
               </a>
