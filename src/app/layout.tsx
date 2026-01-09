@@ -6,9 +6,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "Atulya Srivastava | Portfolio",
   description:
-    "Personal portfolio showcasing AI/ML and Web Development projects",
+    "Portfolio of Atulya Srivastava showcasing AI/ML, Web Development, and Software Engineering projects.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

@@ -33,7 +33,7 @@ export default function IntroSection() {
             <span className="text-white font-semibold">
               Artificial Intelligence and Machine Learning
             </span>
-            , with a strong focus on understanding the mathematics that powers
+            , with a strong focus on understanding the mathematics that uses
             modern AI systems. Alongside this, I am highly efficient in{" "}
             <span className="text-white font-semibold">Web Development</span>
             {""} and enjoy building clean, scalable, and user-focused digital
