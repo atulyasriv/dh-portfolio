@@ -25,15 +25,26 @@ export default function IntroSection() {
             About <span className="text-white font-extrabold">Me</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl/relaxed mb-3 sm:mb-4">
-            I am specializing in{" "}
+            Curiosity has always been at the center of the way I learn and
+            build. It's what drew me toward{" "}
             <span className="text-white font-semibold">
               Artificial Intelligence and Machine Learning
             </span>
-            , with a strong focus on understanding the mathematics that uses
-            modern AI systems. Alongside this, I am highly efficient in{" "}
-            <span className="text-white font-semibold">Web Development</span>
-            {""} and enjoy building clean, scalable, and user-focused digital
-            experiences.
+            , where each new concept feels like an invitation to better
+            understand both technology and the people it serves.I enjoy the
+            process of creating—transforming ideas into applications, solving
+            problems one iteration at a time, and discovering unexpected lessons
+            along the way. Whether I'm working on machine learning projects,
+            developing software, or collaborating within the{" "}
+            <span className="text-white font-semibold">
+              Google Developers Group community
+            </span>
+            {""} , I value persistence, thoughtful exploration, and the shared
+            excitement of learning something new.There's still so much left to
+            discover, and that's what makes this journey meaningful to me. I'm
+            excited to continue growing as an engineer, contributing where I
+            can, and building things that have a positive impact on the world
+            around us.
           </p>
           <p className="text-base sm:text-lg md:text-xl/relaxed mb-3 sm:mb-4">
             As an active member of the{" "}

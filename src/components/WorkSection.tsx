@@ -27,14 +27,23 @@ const experience = [
   {
     role: "Python Developer Intern",
     org: "LOCARLA",
-    period: "Add duration",
-    description: "Add a line about what you built or contributed here.",
+    period: "Dec. 2025 - Jan. 2026",
+    description:
+      "Built an interactive real-estate analytics dashboard using Plotly.js, implementing secure backend-driven visualization pipelines and exportable bar, pie, and donut charts to enhance the reliability, accessibility, and usability of housing stock and energy rating insights.",
+  },
+  {
+    role: "Women in Tech - Head",
+    org: "Google Developers Group",
+    period: "Sep. 2025 – Present",
+    description:
+      "Engaged in Google Developers Group initiatives by completing Gen AI Study Jams focused on Vertex AI, Google Workspace tools, and the Cloud Vision API, and by creating Hacktoberfest coding challenges that encouraged collaboration and strengthened technical skills within the developer community.",
   },
   {
     role: "Content Development Manager",
     org: "The STEAM Boat",
-    period: "Add duration",
-    description: "Add a line about what you built or contributed here.",
+    period: "May. 2024 - Sep. 2024",
+    description:
+      "• Developed and curated educational content, articles, and outreach campaigns in collaboration with cross-functional teams to promote diversity in technology, inspire women to pursue STEM careers, and increase awareness of opportunities within the tech industry.",
   },
 ];
 
