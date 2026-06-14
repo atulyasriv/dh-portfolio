@@ -1,7 +1,5 @@
 "use client";
-
 import { motion } from "framer-motion";
-
 export default function IntroSection() {
   return (
     <motion.section
@@ -10,7 +8,7 @@ export default function IntroSection() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.35 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="py-16 sm:py-20 md:py-28"
+      className="scroll-mt-20 py-16 sm:py-20 md:py-28"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 grid md:grid-cols-2 gap-8 md:gap-10 items-center">
         {/* LEFT — your photo */}
@@ -18,16 +16,14 @@ export default function IntroSection() {
           <img
             src="/portfoliopic.jpg"
             alt="My Portrait"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
         </div>
-
         {/* RIGHT — about content */}
         <div className="text-zinc-300 leading-relaxed">
           <h2 className="text-2xl sm:text-3xl md:text-5xl font-semibold mb-4 sm:mb-6">
             About <span className="text-white font-extrabold">Me</span>
           </h2>
-
           <p className="text-base sm:text-lg md:text-xl/relaxed mb-3 sm:mb-4">
             I am specializing in{" "}
             <span className="text-white font-semibold">
@@ -39,7 +35,6 @@ export default function IntroSection() {
             {""} and enjoy building clean, scalable, and user-focused digital
             experiences.
           </p>
-
           <p className="text-base sm:text-lg md:text-xl/relaxed mb-3 sm:mb-4">
             As an active member of the{" "}
             <span className="text-white font-semibold">
@@ -48,7 +43,6 @@ export default function IntroSection() {
             on my campus, I collaborate with peers to explore new technologies
             and contribute to impactful projects.
           </p>
-
           <p className="text-base sm:text-lg md:text-xl/relaxed">
             Currently, I am expanding my expertise in{" "}
             <span className="text-white font-semibold">

@@ -57,11 +57,16 @@ export default function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 backdrop-blur-lg bg-black/50"
     >
       <div className="mx-auto max-w-6xl px-4 h-14 flex items-center justify-between">
-        <span className="font-semibold tracking-wide text-sm sm:text-base">MyPortfolio</span>
+        <span className="font-semibold tracking-wide text-sm sm:text-base">
+          MyPortfolio
+        </span>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6 text-sm">
-          <a href="#work" className="opacity-80 hover:opacity-100 transition-opacity">
+          <a
+            href="#work"
+            className="opacity-80 hover:opacity-100 transition-opacity"
+          >
             Work
           </a>
           <a
@@ -72,7 +77,10 @@ export default function Navbar() {
           >
             Projects
           </a>
-          <a href="#about" className="opacity-80 hover:opacity-100 transition-opacity">
+          <a
+            href="#about"
+            className="opacity-80 hover:opacity-100 transition-opacity"
+          >
             About
           </a>
 

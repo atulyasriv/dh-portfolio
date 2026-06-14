@@ -94,7 +94,10 @@ export default function WorkSection() {
                 className="mb-6 sm:mb-8"
               >
                 <p className="text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed mb-3 sm:mb-4">
-                  Built an efficient graph visualization pipeline that validates structured data using guardrails, enforces immutability after approval, and enables dynamic frontend graph switching without repeated backend calls.
+                  Built an efficient graph visualization pipeline that validates
+                  structured data using guardrails, enforces immutability after
+                  approval, and enables dynamic frontend graph switching without
+                  repeated backend calls.
                 </p>
                 <p className="text-zinc-400 text-sm sm:text-base md:text-lg leading-relaxed">
                   Tech: Python, Pydantic, Plotly, HTML, CSS, JavaScript
@@ -123,7 +126,7 @@ export default function WorkSection() {
                       className="w-full h-auto object-cover"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
+                        target.style.display = "none";
                       }}
                     />
                   </motion.div>
@@ -140,7 +143,7 @@ export default function WorkSection() {
                       className="w-full h-auto object-cover"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
+                        target.style.display = "none";
                       }}
                     />
                   </motion.div>
@@ -157,7 +160,7 @@ export default function WorkSection() {
                       className="w-full h-auto object-cover"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
-                        target.style.display = 'none';
+                        target.style.display = "none";
                       }}
                     />
                   </motion.div>
@@ -179,7 +182,7 @@ export default function WorkSection() {
                   {/* Add project description here */}
                   {/* Example: "Developed a Python-based data processing system that improved efficiency by 40% through optimized algorithms and real-time processing capabilities." */}
                 </p>
-                
+
                 {/* Project Technologies */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {/* Add project-specific technologies here */}
@@ -211,4 +214,3 @@ export default function WorkSection() {
     </motion.section>
   );
 }
-
